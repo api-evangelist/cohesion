@@ -1,22 +1,58 @@
 aid: cohesion
 name: Cohesion
-description: Cohesion is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cohesion is a New York City-based financial intelligence company (Y Combinator,
+  Spring 2026) building AI agents that automate investment research for hedge funds
+  and institutional investors. The platform continuously monitors public companies
+  across earnings reports, news, podcasts, and social media such as X/Twitter to
+  surface differentiated investing signals that fundamental equity analysts would
+  otherwise spend hours a week tracking manually. Founded by Devon Krapcho (CEO),
+  Matthew McBrien, and Matt Munns, its agents are used by 10+ long/short and
+  long-only equity funds managing over $10 billion in assets. Marketed as "Modern
+  Intelligence for Finance," Cohesion currently ships only a single-page marketing
+  site with no public API, developer portal, documentation, or SDKs; this profile
+  captures its verified company identity as an API Evangelist network lead.
 url: https://raw.githubusercontent.com/api-evangelist/cohesion/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cohesionplatform.com/favicon-32x32.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- FinTech
+- Investment Research
+- AI Agents
+- Hedge Funds
+- Financial Intelligence
+- Institutional Investors
 apis: []
+common:
+- type: Website
+  url: https://cohesionplatform.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
